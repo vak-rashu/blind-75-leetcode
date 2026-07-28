@@ -6,7 +6,7 @@ A curated list of the Blind 75 LeetCode problems for coding interviews. Fork thi
 
 ## Array
 - [X] [Two Sum](https://leetcode.com/problems/two-sum/)
-- [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [X] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [X] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [X] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
