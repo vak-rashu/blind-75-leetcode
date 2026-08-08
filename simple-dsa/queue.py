@@ -2,9 +2,11 @@ class Queue:
     def __init__(self):
         self.queue = []
 
+    #   time-complexity: O(1)
     def enqueue(self, ele):
         self.queue.append(ele)
 
+    #   time-complexity: O(1)
     def dequeue(self):
 
         if len(self.queue) == 0:

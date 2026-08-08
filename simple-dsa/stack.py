@@ -2,9 +2,11 @@ class Stack:
     def __init__(self):
         self.stack = []
 
+    #   time-complexity: O(1)
     def push_stack(self, ele):
         self.stack.append(ele)
 
+    #   time-complexity: O(1)
     def pop_stack(self):
 
         if len(self.stack) == 0:
