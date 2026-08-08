@@ -11,8 +11,10 @@ class Stack:
             return "Underflow Error: Cant evaluate items"
 
         lastIndex = len(self.stack) - 1
-        popped_element = self.stack[lastIndex]
-        self.stack = self.stack[:lastIndex]
+        # popped_element = self.stack[lastIndex]
+        # self.stack = self.stack[:lastIndex]
+
+        popped_element = self.stack.pop(lastIndex)
 
         return (f"Popped element: {popped_element}\nNew Stack is: {self.stack}")
 
