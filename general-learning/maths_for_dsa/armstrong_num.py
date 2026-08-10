@@ -1,14 +1,20 @@
 class Solution:
     def armstrong_num(self, num: int) -> bool:
 
+        count, sum = 0, 0
         dup = num
-        sum = 0
 
         while num > 0:
-
-            digit = num % 10
-            sum += digit**3
+            count +=1
             num//=10
+
+        num = dup
+
+        while num > 0:
+            digit = num % 10
+            digit = digit ** count
+            sum += digit
+            num //= 10
 
         if sum == dup:
             return True
