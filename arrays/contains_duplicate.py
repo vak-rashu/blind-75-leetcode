@@ -11,10 +11,10 @@ class Solution:
 # time complexity: O(n)
 # space complexity: O(n)
 
-#
+# time-complexity: O(nlogn)
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        list.sort(nums)
+        list.sort(nums) #<- O(nlogn)
         for i in range(len(nums) - 1):
             if nums[i] == nums[i + 1]:
                 return True

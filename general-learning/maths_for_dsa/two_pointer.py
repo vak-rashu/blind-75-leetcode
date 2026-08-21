@@ -1,5 +1,4 @@
-# def two_pointers(array, target):
-#     target_sum = 0
+# def two_pointers(array):
 #     l, r = 0, len(array)-1
 
 #     while l!=r:
@@ -7,6 +6,8 @@
 #         l+=1
 #         print(array[r])
 #         r-=1
+#         if l == r:
+#             print(array[l])
 
 # def two_sum_two_pointers(array, target):
 #     l, r = 0, len(array)-1
