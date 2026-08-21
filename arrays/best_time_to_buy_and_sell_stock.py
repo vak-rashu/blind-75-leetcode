@@ -52,5 +52,5 @@ class Solution:
         return max_prof
 
 
-a = Solution()
-print(a.maxProfit([2, 1, 4]))
+# a = Solution()
+# print(a.maxProfit([2, 1, 4]))
